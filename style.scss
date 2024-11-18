@@ -19,7 +19,7 @@ $light: #ecf3f8;
 $work: #4361ff;
 $harmony: #ff43f7;
 $health: #06a44f;
-button a{
+div > a{
     color:white;
     text-decoration: none;
 }
@@ -110,9 +110,12 @@ header {
     word-spacing: 3px;
     margin-top: 10px;
   }
-  button {
+  .main__button {
     font-size: 12px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     background-color: $dark;
     width: 235px;
@@ -333,9 +336,12 @@ header {
     flex-direction: column;
     align-items: center;
   }
-  button {
+  .CTA__button {
     border: none;
     background-color: $dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     color: white;
     width: 235px;
