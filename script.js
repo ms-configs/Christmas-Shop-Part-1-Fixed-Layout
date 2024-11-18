@@ -7,5 +7,6 @@ function goToView(e, id) {
 function addEvent(item, scrollTo) {
     item.addEventListener('click', (e) => goToView(e, scrollTo))
 }  
+addEvent(navs[1], 'about');
 addEvent(navs[2], 'gifts');
 addEvent(navs[3], 'footer');

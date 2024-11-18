@@ -19,6 +19,10 @@ $light: #ecf3f8;
 $work: #4361ff;
 $harmony: #ff43f7;
 $health: #06a44f;
+button a{
+    color:white;
+    text-decoration: none;
+}
 .work {
   color: $work;
 }
@@ -33,8 +37,6 @@ $health: #06a44f;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth !important;
-}
-html {
 }
 body {
   width: 1440px;

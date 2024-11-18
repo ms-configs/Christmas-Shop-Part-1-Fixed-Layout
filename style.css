@@ -13,6 +13,11 @@
   src: url("fonts/Allura-Regular.woff2") format("woff2");
   font-weight: 400;
 }
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 .work {
   color: #4361ff;
 }
